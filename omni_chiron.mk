@@ -16,8 +16,10 @@
 
 # Release name
 PRODUCT_RELEASE_NAME := chiron
+DEVICE_PATH := device/xiaomi/chiron
 
-$(call inherit-product, build/target/product/embedded.mk)
+$(call inherit-product, device/xiaomi/chiron/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)

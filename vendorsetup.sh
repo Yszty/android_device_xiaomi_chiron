@@ -1,2 +1,0 @@
-add_lunch_combo omni_chiron-eng
-add_lunch_combo omni_chiron-userdebug

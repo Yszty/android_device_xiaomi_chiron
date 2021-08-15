@@ -55,7 +55,7 @@ BOARD_KERNEL_CMDLINE += androidboot.configfs=true
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image loop.max_part=7
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
-TARGET_PREBUILT_KERNEL := device/xiaomi/chiron/prebuilt/Image.gz-dtb
+#TARGET_PREBUILT_KERNEL := device/xiaomi/chiron/prebuilt/Image.gz-dtb
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
